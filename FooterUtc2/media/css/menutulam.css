@@ -1,0 +1,130 @@
+#menu2 ul{    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    float: none;text-align:center;
+    padding: 0;}
+#menu2 ul li{    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    
+    background: url(../images/chanmenutren.png)no-repeat right center;
+    position: relative;
+    z-index: 11;
+    list-style: none;
+    float: none;
+    display: inline-block;
+    line-height: 40px;
+    border-right: 0px solid #0180d3;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 9px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+#menu2 ul li:last-child{border-right:0px solid #000}
+#menu2 ul li#menuactive{ border-bottom: 0px solid #f7b900;
+    
+   
+}
+#menu2 ul li#menuactive a{  color:#05b2e9 }
+
+		
+		
+		
+#menu2 ul li a{    font-size: 14px;
+    color: #281756; text-transform:uppercase;
+    font-weight:700;
+    padding-bottom: 11px;
+    padding-top: 11px;transition:0.3s; -moz-transition:0.3s; -ms-transition:0.3s; -o-transition:0.3s; -webkit-transition:0.3s; 
+    }
+
+#menu2 ul li:hover{ 
+   
+}
+#menu2 ul li:hover a{color:#f1d810}
+#menu2 ul li ul{    position: absolute;
+    left: 0px; 
+    top: 40px; 
+    width: 326px;
+    display: none;background: #281756;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    
+    
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);}
+#menu2 ul li:hover ul{display:block}
+#menu2 ul li ul li{width:100%;text-align:left; height:35px;float:left;line-height:35px;padding-left:3%;padding-right:0px;transition:0.3s; -moz-transition:0.3s; -ms-transition:0.3s; -o-transition:0.3s; -webkit-transition:0.3s;border-right:0px solid #000;border-left:0px solid #000;border-bottom:1px solid #442779;background:none}
+#menu2 ul li ul li:hover{background:#3E2383}
+#menu2 ul li ul li a{
+    text-transform: inherit;font-size:14px;color:#fff!important;border-bottom:0px solid #000!important;text-transform: capitalize;}
+
+#menu2 ul li:hover ul li ul{position:absolute;left:326px;top:0px;width:250px;display:none}
+#menu2 ul li ul li:hover ul{display:block}
+
+#menu2 ul li ul li:hover{}
+
+#khungtimkiemtc{      width: 100%;
+    float: right;
+    height: 34px;
+ 
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;}   
+
+#khungtimkiemtc i{       float: right;
+    margin-right: 11px;
+    margin-top: 9px;
+    color: #93979b;
+    position: absolute;
+    right: 0px;
+   }
+#txtTimkiem{    width: 100%;
+    float: left;
+    height: 34px;
+    padding-left: 5px;padding-right:26px;
+    line-height: 28px;
+    background: none;
+    border: 0px solid #000;
+    outline: none;
+    font-style: italic;
+    font-size: 12px;
+    color: #93979b;
+    position: relative;
+    z-index: 11;}
+#btntimkiem{   
+    width: 67px;
+    height: 34px;
+    border: 0px;
+    position: absolute;
+    z-index: 1;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    right: 0px;
+    margin-top: -1px;
+    background: #281756;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
